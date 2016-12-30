@@ -5,6 +5,7 @@ import {HttpModule} from '@angular/http';
 
 import {AppComponent} from './app.component';
 import {EntityStoreModule} from './entity-store/entity-store.module';
+import {KeybindingsModule} from './keybindings/keybindings.module';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import {EntityStoreModule} from './entity-store/entity-store.module';
     BrowserModule,
     FormsModule,
     HttpModule,
-    EntityStoreModule
+    EntityStoreModule,
+    KeybindingsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
